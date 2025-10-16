@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap"); /*jockey one*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); /*Montserrat*/
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./proximanova_regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease-in;
+}
+
+button {
+  font-size: 16px;
+  padding: 16px 30px;
+  background: none;
+  background-color: #3467fe;
+  border-radius: 100px;
+  border: none;
+  color: #fff;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.container{
+    position: relative;
+    width:100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 40px;
+  height: 100px;
+  position: sticky;
+  top:0;
+  left: 0;
+  z-index: 10000;
+}
+
+header .logo_area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo_area svg {
+  background-color: #3467fe;
+  box-sizing: content-box;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  font-size: 16px;
+  padding: 16px 30px;
+  border-radius: 100px;
+  background-color: #000;
+}
+
+nav ul li a:hover{
+    color: #3467fe;
+}
+
+.company_tagline h1{
+    font-family: "Jockey One", sans-serif;
+    font-weight: lighter;
+}
+
+.company_tagline p,.sec1 h1,.lower_sec .col p,.sec2 .content h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+nav a,button,.sec1 p{
+    font-family: "Proxima Nova";
+}
