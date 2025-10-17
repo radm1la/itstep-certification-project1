@@ -16,7 +16,8 @@
 
 body {
   color: #fff;
-  background-color: #00060F;
+  background-color: #00060f;
+  width: 100%;
 }
 
 a {
@@ -37,9 +38,9 @@ button {
   cursor: pointer;
 }
 
-button:hover{
-    background-color: #fff;
-    color: #000;
+button:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .box {
@@ -58,9 +59,9 @@ button:hover{
   border-radius: 0 0 10px 10px;
 }
 
-.my_container{
-    position: relative;
-    width:100%;
+.my_container {
+  position: relative;
+  width: 100%;
 }
 
 header {
@@ -71,7 +72,7 @@ header {
   padding-inline: 40px;
   height: 100px;
   position: sticky;
-  top:0;
+  top: 0;
   left: 0;
   z-index: 10000;
 }
@@ -106,30 +107,132 @@ nav ul {
   background-color: #000;
 }
 
-nav ul li a:hover{
-    color: #3467fe;
+nav ul li a:hover {
+  color: #3467fe;
 }
 
-.company_tagline h1{
-    font-family: "Jockey One", sans-serif;
-    font-weight: lighter;
+.company_tagline h1 {
+  font-family: "Jockey One", sans-serif;
+  font-weight: lighter;
 }
 
-.company_tagline p,.sec1 h1,.lower_sec .col p,.sec2 .content h1,.sec3 h1,.sec6 h2,figcaption,.sec8 h1,.sec8 p,input::placeholder,.questions .question {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+.company_tagline p,
+.sec1 h1,
+.lower_sec .col p,
+.sec2 .content h1,
+.sec3 h1,
+.sec6 h2,
+figcaption,
+.sec8 h1,
+.sec8 p,
+input::placeholder,
+.questions .question
+{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
-nav a,button,.sec1 p,.sec3 p,.sec5 p,.answer{
-    font-family: "Proxima Nova";
+nav a,
+button,
+.sec1 p,
+.sec3 p,
+.sec5 p,
+.answer ,footer{
+  font-family: "Proxima Nova";
 }
 
-.testifier h6{
- font-family: "Montserrat", sans-serif;
-font-weight: bold;}
+.testifier h6 ,footer h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
 
-footer{
+footer {
   height: 576px;
   width: 100%;
   background-color: #242834;
+  display: flex;
+  flex-direction: column;
+  color: #c7c7c7;
+  font-size: 16px;
+  line-height: 1.6;
+  justify-content: space-between;
+  padding:90px 60px ;
+}
+
+.outer_container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+footer h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li a{
+  color: #c7c7c7;
+}
+
+footer .contact,footer .subscribe,footer .menu,footer .socials{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:30px;
+}
+
+
+.contact .container{
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  align-items: flex-start;
+}
+
+footer .subscribe p{
+ width: 360px;
+}
+
+.subscribe form{
+  width: 385px;
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+}
+
+.subscribe form input{
+  background: none;
+  border: 0.1px solid #444343;  
+  border-radius: 100px;
+  padding: 8px 2px 8px 12px;
+  font-size: 16px;
+  outline: none;
+}
+
+.subscribe form .field{
+  display: flex;
+  align-items: center;
+  gap:15px;
+}
+
+.subscribe form .field button{
+  padding: 10px 16px;
+  background-color: #fff;
+  color: #000;
+}
+
+.subscribe form .field button:hover{
+  background-color: #00060f;
+  color: #fff;
+}
+
+.copyright a{
+  color: #c7c7c7;
+  text-decoration: underline;
 }
