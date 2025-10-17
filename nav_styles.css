@@ -16,6 +16,7 @@
 
 body {
   color: #fff;
+  background-color: #00060F;
 }
 
 a {
@@ -41,8 +42,23 @@ button:hover{
     color: #000;
 }
 
+.box {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  background-color: #fff;
+  color: #000;
+  width: 340px;
+  padding-block: 16px;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 0 0 10px 10px;
+}
 
-.container{
+.my_container{
     position: relative;
     width:100%;
 }
@@ -99,11 +115,21 @@ nav ul li a:hover{
     font-weight: lighter;
 }
 
-.company_tagline p,.sec1 h1,.lower_sec .col p,.sec2 .content h1{
+.company_tagline p,.sec1 h1,.lower_sec .col p,.sec2 .content h1,.sec3 h1,.sec6 h2,figcaption,.sec8 h1,.sec8 p,input::placeholder,.questions .question {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
 }
 
-nav a,button,.sec1 p{
+nav a,button,.sec1 p,.sec3 p,.sec5 p,.answer{
     font-family: "Proxima Nova";
+}
+
+.testifier h6{
+ font-family: "Montserrat", sans-serif;
+font-weight: bold;}
+
+footer{
+  height: 576px;
+  width: 100%;
+  background-color: #242834;
 }
