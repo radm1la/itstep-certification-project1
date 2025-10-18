@@ -1,0 +1,39 @@
+main h3{
+font-size: 26px;
+}
+
+.sec1 h2,h3,.sec2 h2{
+    font-family:"Montserrat", sans-serif ; 
+    font-weight: 400;
+}
+
+.sec1 p,.sec2 p{
+ font-size: 18px;
+  font-family: "Proxima Nova";
+}
+
+.sec1 h2,.sec2 h2{
+ font-size: 40px;
+}
+
+.lower_content .area p{
+    font-size: 16px;
+}
+
+.sec2{
+   width: 100%;
+  background-image: url("/media/about_sec2_bg.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.sec2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #00060f;
+  opacity: 0.5;
+  z-index: -1;
+}

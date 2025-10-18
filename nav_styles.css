@@ -148,7 +148,7 @@ button,
 }
 
 footer {
-  height: 576px;
+  min-height: 576px;
   width: 100%;
   background-color: #242834;
   display: flex;
