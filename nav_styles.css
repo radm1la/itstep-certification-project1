@@ -126,7 +126,8 @@ figcaption,
 .sec8 h1,
 .sec8 p,
 input::placeholder,
-.questions .question
+.questions .question,
+.ser_sec1 h2
 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
