@@ -237,3 +237,7 @@ footer .subscribe p{
   color: #c7c7c7;
   text-decoration: underline;
 }
+
+.active_link{
+  color: #3467fe;
+}
