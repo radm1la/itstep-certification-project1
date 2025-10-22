@@ -1,0 +1,90 @@
+main {
+  padding: 100px;
+}
+
+main h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+main h2.title {
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+main .container {
+  background-color: #242834;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 95px;
+  gap: 30px;
+}
+
+.container .card {
+  max-width: 400px;
+  background-color: #00060f;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card .content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content p {
+  font-size: 18px;
+  font-family: "Proxima Nova";
+}
+
+.content .field1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.field1 p {
+  font-size: 12px;
+}
+
+.field1 i:hover,.field2:hover,i.fa-message:hover{
+    color: #3467fe;
+    cursor: pointer;
+}
+
+.content .field2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content .field3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 0.1px solid #c7c7c741;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.field3 .group{
+    display: flex;
+    gap:20px;
+}
+
+span#heart{
+    cursor: pointer;
+}
+
+.field3 span.liked{
+    color: #e84a43;
+}
