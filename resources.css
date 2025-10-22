@@ -56,6 +56,12 @@ main .container {
   font-size: 12px;
 }
 
+.field1 p span{
+  font-weight:bold;
+  margin-inline: 5px;
+  height: 100%;
+}
+
 .field1 i:hover,.field2:hover,i.fa-message:hover{
     color: #3467fe;
     cursor: pointer;
