@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "Proxima Nova";
-  src: url("./proximanova_regular.ttf") format("truetype");
+  src: url("/utilities/proximanova_regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
