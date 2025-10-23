@@ -1,4 +1,3 @@
-const likesCount = document.getElementById("likes_count");
 const heartIcons =  document.querySelectorAll("#heart");
 
 heartIcons.forEach(h=>{
