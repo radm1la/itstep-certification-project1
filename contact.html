@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="nav_styles.css" />
-    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="contact.css" />
     <link
       rel="icon"
       href="https://img.icons8.com/?size=100&id=8yDNzzyvNoDI&format=png&color=3467fe"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
   <body>
@@ -48,75 +55,52 @@
       <nav>
         <ul>
           <li><a href="services.html">Services</a></li>
-          <li><a href="#" class="active_link">About</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="materials.html">Materials</a></li>
           <li><a href="resources.html">Resources</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#" class="active_link">Contact</a></li>
           <li><a href="index.html#faq">FAQ</a></li>
         </ul>
         <button>Get a Quote</button>
       </nav>
     </header>
     <main>
-      <section class="sec1">
-        <h2 style="margin-bottom: 60px">Who We Are</h2>
-        <div class="container">
-          <div class="text_container">
-            <h3>
-              I'm a paragraph. Click here to add your own text and edit me. I’m
-              a great place for you to tell a story and let your users know a
-              little more about you.
-            </h3>
-            <p>
-              I'm a paragraph. Click here to add your own text and edit me. It’s
-              easy. Just click “Edit Text” or double click me to add your own
-              content and make changes to the font. I’m a great place for you to
-              tell a story and let your users know a little more about you.
-            </p>
+      <h2>Contact Us</h2>
+      <p>The time to create is now</p>
+      <form>
+          <div class="input_field">
+            <label for="firstname">First Name *</label>
+            <input type="text" id="firstname"  required/>
           </div>
-          <img src="/media/about_sec1_img.png" />
+          <div class="input_field">
+            <label for="lastname">Last Name *</label>
+            <input type="text" id="lastname"  required/>
+          </div>
+          <div class="input_field">
+            <label for="email">Email *</label>
+            <input type="email" id="email"  required/>
+          </div>
+          <div class="input_field">
+            <label for="phone_no">Phone</label>
+            <div class="span">
+              <span><img src="/media/globe.svg" alt=""> <img src="/media/arrowDownBlack.svg" alt=""></span>
+              <input type="text" id="phone_no" />
+            </div>
+          </div>
+          <div class="input_field">
+            <label for="job_title">Job Title</label>
+            <input type="text" id="job_title">
+          </div>
+          <div class="input_field">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject">
+          </div>
+        <div class="input_field">
+            <label for="message">Leave us a message...</label>
+            <textarea id="message"></textarea>
         </div>
-      </section>
-      <section class="sec2">
-        <div class="box">Our Clients</div>
-        <div class="upper_content">
-          <h2>
-            I'm a paragraph. Click here to add your own text and edit me. It’s
-            easy. Just click “Edit Text” or double click me to add your own
-            content and make changes to the font.
-          </h2>
-          <p>
-            I'm a paragraph. Click here to add your own text and edit me. It’s
-            easy. Just click “Edit Text” or double click me to add your own
-            content and make changes to the font. I’m a great place for you to
-            tell a story and let your users know a little more about you.
-          </p>
-        </div>
-        <div class="lower_content">
-          <div class="box">Core Values</div>
-          <div class="area">
-            <h3>Innovation</h3>
-            <p>
-              I'm a paragraph. Click here to add your own text and edit me. Let
-              your users get to know you.
-            </p>
-          </div>
-          <div class="area">
-            <h3>Transparency</h3>
-            <p>
-              I'm a paragraph. Click here to add your own text and edit me. Let
-              your users get to know you.
-            </p>
-          </div>
-          <div class="area">
-            <h3>Accessibility</h3>
-            <p>
-              I'm a paragraph. Click here to add your own text and edit me. Let
-              your users get to know you.
-            </p>
-          </div>
-        </div>
-      </section>
+        <button type="submit">Submit</button>
+      </form>
     </main>
     <footer>
       <div class="outer_container">

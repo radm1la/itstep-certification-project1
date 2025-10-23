@@ -549,11 +549,11 @@ input::placeholder{
   gap:20px;
 }
 
-.row .question i {
+.row .question img {
   transition: transform 0.4s ease;
 }
 
-.row.activeq .question i {
+.row.activeq .question img {
   transform: rotate(180deg);
 }
 
