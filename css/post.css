@@ -1,5 +1,5 @@
 a:hover{
-  color: rgb(153, 179, 254);
+  color: var(--lblue);
 }
 
 main {
@@ -9,7 +9,7 @@ main {
 }
 main .content {
   width: 100%;
-  background-color: #242834;
+  background-color: var(--dgray);
   padding-block: 100px;
 }
 
@@ -64,20 +64,20 @@ main .content {
   left: -70px;
   width: 150px;
   height: 3px;
-  background-color: rgb(153, 179, 254);
+  background-color: var(--lblue);
   transform: rotate(-90deg);
 }
 
 .sub_area2 p.p_with_links a {
-  color: rgb(153, 179, 254);
+  color: var(--lblue);
 }
 
 .socials {
   font-size: 20px;
   display: flex;
   gap: 30px;
-  border-top: 0.1px solid #c7c7c741;
-  border-bottom: 0.1px solid #c7c7c741;
+  border-top: 0.1px solid var(--borderColor);
+  border-bottom: 0.1px solid var(--borderColor);
   padding-block: 20px;
 }
 
@@ -88,7 +88,7 @@ main .content {
 }
 
 span.liked {
-  color: #e84a43;
+  color: var(--heartColor);
 }
 
 #heart {
@@ -125,7 +125,7 @@ span.liked {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 0.1px solid #c7c7c741;
+  border-top: 0.1px solid var(--borderColor);
   padding-top: 20px;
   margin-top: 40px;
 }
@@ -156,7 +156,7 @@ span.liked {
 }
 
 .comments_area p {
-  border-bottom: 0.1px solid #c7c7c741;
+  border-bottom: 0.1px solid var(--borderColor);
   padding-bottom: 20px;
 }
 
@@ -167,7 +167,7 @@ span.liked {
   font-size: 16px;
   outline: none;
   border: none;
-  border: 1px solid #c7c7c741;
+  border: 1px solid var(--borderColor);
 }
 
 .comments_area input::placeholder{

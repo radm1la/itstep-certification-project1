@@ -14,7 +14,7 @@ main h2.title {
 }
 
 main .container {
-  background-color: #242834;
+  background-color: var(--dgray);
   display: flex;
   flex-wrap: wrap;
   padding: 95px;
@@ -23,7 +23,7 @@ main .container {
 
 .container .card {
   max-width: 400px;
-  background-color: #00060f;
+  background-color: var(--black);
 }
 
 .card img {
@@ -60,7 +60,7 @@ main .container {
 }
 
 .field1 i:hover,.field2:hover,i.fa-message:hover{
-    color: #3467fe;
+    color: var(--blue);
     cursor: pointer;
 }
 
@@ -74,7 +74,7 @@ main .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 0.1px solid #c7c7c741;
+    border-top: 0.1px solid var(--borderColor);
     padding-top: 20px;
     margin-top: 40px;
 }
@@ -89,5 +89,5 @@ span#heart{
 }
 
 .field3 span.liked{
-    color: #e84a43;
+    color: var(--heartColor);
 }

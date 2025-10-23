@@ -12,7 +12,7 @@ body::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: #00060f;
+  background: var(--black);
   opacity: 0.5;
   z-index: -1;
 }
@@ -38,8 +38,8 @@ main p {
 }
 
 main form {
-  background-color: #fff;
-  color: #00060f;
+  background-color: var(--white);
+  color: var(--black);
   max-width: 778px;
   display: flex;
   flex-wrap: wrap;
@@ -65,7 +65,7 @@ main form .input_field {
 .input_field input {
   padding: 8px 12px;
   border: none;
-  border-bottom: 0.5px solid #00060f;
+  border-bottom: 0.5px solid var(--black);
   margin-bottom: 30px;
   outline: none;
   font-size: 16px;
@@ -102,22 +102,22 @@ main form .input_field {
   outline: none;
   font-size: 16px;
   padding: 8px 0;
-  border-bottom: 0.5px solid #00060f;
+  border-bottom: 0.5px solid var(--black);
 }
 
 .input_field input:focus,
 .input_field textarea:focus {
-  border-bottom: 0.5px solid #3467fe;
+  border-bottom: 0.5px solid var(--blue);
 }
 
 
 main form button{
-    background-color: #242834;
+    background-color: var(--dgray);
     padding: 11px 80px;
     margin-top: 30px;
 }
 
 main form button:hover{
-    background-color: #3467fe;
-    color: #fff;
+    background-color: var(--blue);
+    color: var(--white);
 }

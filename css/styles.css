@@ -26,7 +26,7 @@
 }
 
 .btns button:nth-of-type(2) {
-  background-color: #242834;
+  background-color: var(--dgray);
 }
 
 .btns button:nth-of-type(2):hover {
@@ -35,7 +35,7 @@
 }
 
 .sec1 .lower_sec {
-  background-color: #242834;
+  background-color: var(--dgray);
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -55,7 +55,7 @@
   content: "";
   width: 80px;
   height: 8px;
-  background-color: #3467fe;
+  background-color: var(--blue);
   transform: rotate(90deg);
   border-radius: 10px;
 }
@@ -109,7 +109,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: #242834;
+  background: var(--dgray);
   opacity: 0.9;
   z-index: 0;
 }
@@ -133,7 +133,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: #00060F; 
+  background: var(--black); 
   opacity: 0.3; 
   z-index: -1;
 }
@@ -240,7 +240,7 @@
 .sec5{
   position: relative;
   height: 505px;
-  background-color: #242834;
+  background-color: var(--dgray);
   display: flex;
   align-items: center;
   justify-content: center
@@ -309,7 +309,7 @@
   content: "";
   width: 150px;
   height: 8px;
-  background-color: #3467fe;
+  background-color: var(--blue);
   transform: rotate(90deg);
   position: absolute;
   left: -75px;
@@ -329,7 +329,7 @@
 }
 
 .area p{
-  color: #C7C7C7;
+  color: var(--lgray);
 }
 
 .sec6{
@@ -387,7 +387,7 @@ figure .img:hover::before{
 }
 
 figure figcaption{
-  color: #C7C7C7;
+  color: var(--lgray);
   font-size: 14px;
   font-weight: bold;
 }
@@ -491,13 +491,13 @@ input::placeholder{
 }
 
 .toggle_buttons button.active{
- color: #3467fe;
- border-bottom: 2px solid #3467fe;
+ color: var(--blue);
+ border-bottom: 2px solid var(--blue);
 }
 
 .toggle_buttons button:hover{
    background: none;
-   color: #3467fe;
+   color: var(--blue);
 }
 
 .questions{

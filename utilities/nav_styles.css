@@ -1,12 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap"); /*jockey one*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); /*Montserrat*/
-
-@font-face {
-  font-family: "Proxima Nova";
-  src: url("/utilities/proximanova_regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
+@import url("/utilities/vars_fonts.css");
 
 * {
   margin: 0;
@@ -15,8 +7,8 @@
 }
 
 body {
-  color: #fff;
-  background-color: #00060f;
+  color: var(--white);
+  background-color: var(--black);
   width: 100%;
 }
 
@@ -30,7 +22,7 @@ button {
   font-size: 16px;
   padding: 16px 30px;
   background: none;
-  background-color: #3467fe;
+  background-color: var(--blue);
   border-radius: 100px;
   border: none;
   color: #fff;
@@ -39,16 +31,16 @@ button {
 }
 
 button:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white);
+  color: var(--black);
 }
 
 .box {
   position: absolute;
   top: 0;
   left: 100px;
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white);
+  color: var(--black);
   width: 340px;
   padding-block: 16px;
   font-size: 18px;
@@ -84,7 +76,7 @@ header .logo_area {
 }
 
 .logo_area svg {
-  background-color: #3467fe;
+  background-color: var(--blue);
   box-sizing: content-box;
   padding: 10px;
   border-radius: 10px;
@@ -104,11 +96,11 @@ nav ul {
   font-size: 16px;
   padding: 16px 30px;
   border-radius: 100px;
-  background-color: #000;
+  background-color: var(--black);
 }
 
 nav ul li a:hover {
-  color: #3467fe;
+  color: var(--blue);
 }
 
 .company_tagline h1 {
@@ -150,10 +142,10 @@ button,
 footer {
   min-height: 576px;
   width: 100%;
-  background-color: #242834;
+  background-color: var(--dgray);
   display: flex;
   flex-direction: column;
-  color: #c7c7c7;
+  color: var(--lgray);
   font-size: 16px;
   line-height: 1.6;
   justify-content: space-between;
@@ -170,7 +162,7 @@ footer {
 footer h6 {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
+  color: var(--white);
 }
 
 footer ul {
@@ -178,7 +170,7 @@ footer ul {
 }
 
 footer ul li a{
-  color: #c7c7c7;
+  color: var(--lgray);
 }
 
 footer .contact,footer .subscribe,footer .menu,footer .socials{
@@ -224,20 +216,20 @@ footer .subscribe p{
 
 .subscribe form .field button{
   padding: 10px 16px;
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white);
+  color: var(--black);
 }
 
 .subscribe form .field button:hover{
-  background-color: #00060f;
-  color: #fff;
+  background-color: var(--black);
+  color: var(--white);
 }
 
 .copyright a{
-  color: #c7c7c7;
+  color: var(--lgray);
   text-decoration: underline;
 }
 
 .active_link{
-  color: #3467fe;
+  color: var(--blue);
 }

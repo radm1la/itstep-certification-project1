@@ -16,7 +16,7 @@ main{
 
 main .materials_container{
     width: 100%;
-    background-color: #242834;
+    background-color: var(--dgray);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,7 +50,7 @@ main .materials_container{
     font-weight: bold;
     font-size: 14px;
     padding-block: 12px;
-    border-bottom: 0.1px solid #c7c7c741;
+    border-bottom: 0.1px solid var(--borderColor);
 }
 
 .material ul li:last-of-type{

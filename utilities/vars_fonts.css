@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap"); /*jockey one*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); /*Montserrat*/
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/utilities/proximanova_regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root{
+    --blue:#3467fe;
+    --white:#fff;
+    --black:#00060f;
+    --dgray:#242834;
+    --lgray:#c7c7c7;
+    --borderColor:#c7c7c741;
+    --lblue:rgb(153, 179, 254);
+    --heartColor:#e84a43;
+}
