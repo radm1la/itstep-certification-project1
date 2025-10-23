@@ -46,7 +46,7 @@ button:hover {
   font-size: 18px;
   text-align: left;
   padding-left: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--M);
   font-weight: bold;
   border-radius: 0 0 10px 10px;
 }
@@ -121,7 +121,7 @@ input::placeholder,
 .questions .question,
 .ser_sec1 h2
 {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--M);
   font-weight: 400;
 }
 
@@ -131,11 +131,11 @@ button,
 .sec3 p,
 .sec5 p,
 .answer ,footer{
-  font-family: "Proxima Nova";
+  font-family: var(--PN);
 }
 
 .testifier h6 ,footer h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--M);
   font-weight: bold;
 }
 

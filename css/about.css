@@ -30,13 +30,13 @@ font-size: 26px;
 }
 
 .sec1 h2,h3,.sec2 h2{
-    font-family:"Montserrat", sans-serif ; 
+    font-family:var(--M);
     font-weight: 400;
 }
 
 .sec1 p,.sec2 p{
  font-size: 18px;
-  font-family: "Proxima Nova";
+  font-family: var(--PN);
 }
 
 .sec1 h2,.sec2 h2{

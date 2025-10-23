@@ -22,7 +22,7 @@
 
 .cards h3 {
   font-size: 26px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--M);
   font-weight: 400;
   position: relative;
 }
@@ -42,7 +42,7 @@
 .cards p {
   max-width: 360px;
   font-size: 18px;
-  font-family: "Proxima Nova";
+  font-family: var(--PN);
   line-height: 1.6;
 }
 
@@ -78,6 +78,6 @@
 
 .ser_sec2 h2,
 .ser_sec2 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--M);
   font-weight: 400;
 }

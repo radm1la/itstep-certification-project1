@@ -4,7 +4,7 @@ main {
 }
 
 main h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--M);
   font-weight: 400;
 }
 
@@ -44,7 +44,7 @@ main .container {
 
 .content p {
   font-size: 18px;
-  font-family: "Proxima Nova";
+  font-family: var(--PN);
 }
 
 .content .field1 {

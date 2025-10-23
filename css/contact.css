@@ -25,7 +25,7 @@ main {
 }
 
 main h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family:var(--M);
   font-weight: 400;
   font-size: 40px;
   margin-bottom: 15px;
@@ -33,7 +33,7 @@ main h2 {
 
 main p {
   font-size: 18px;
-  font-family: "Proxima Nova";
+  font-family: var(--PN);
   margin-bottom: 60px;
 }
 
@@ -59,7 +59,7 @@ main form .input_field {
 .input_field label {
   font-size: 16px;
   margin-bottom: 8px;
-  font-family: "Proxima Nova";
+  font-family: var(--PN);
 }
 
 .input_field input {

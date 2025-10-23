@@ -1,11 +1,11 @@
 main h2,.materials_container ,.material ul li{
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--M);
   font-weight: 400;
   font-size: 40px;
 }
 
 main p{
-     font-family: "Proxima Nova";
+     font-family: var(--PN);
      font-size: 18px;
      margin-bottom: 60px;
 }
