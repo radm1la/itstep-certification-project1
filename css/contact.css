@@ -6,6 +6,7 @@ body {
   background-attachment: fixed;
   position: relative;
   z-index: 1;
+  width: 100%;
 }
 
 body::before {
@@ -120,4 +121,22 @@ main form button{
 main form button:hover{
     background-color: var(--blue);
     color: var(--white);
+}
+
+@media (max-width:768px) {
+    main{
+    padding-inline: 50px;
+  }
+}
+
+@media (max-width:700px) {
+  .input_field{
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width:480px) {
+  main{
+    padding-inline: 20px;
+  }
 }

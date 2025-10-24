@@ -157,6 +157,7 @@ footer {
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-between;
+  gap:40px;
 }
 
 footer h6 {
@@ -232,4 +233,84 @@ footer .subscribe p{
 
 .active_link{
   color: var(--blue);
+}
+
+/* Mobile menu styles */
+
+#mobile_nav{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--dgray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  transform: translateY(-100%);
+  transition: transform 0.4s ease-in;
+}
+
+#mobile_nav.active{
+  transform: translateY(0);
+}
+
+#mobile_nav ul{
+  flex-direction: column;
+  background-color: var(--dgray);
+}
+
+#mobile_nav ul li{
+  font-size: 40px;
+}
+
+#mobile_nav button{
+  font-size: 22px;
+}
+
+.menu_icon{
+  display: none;
+  cursor: pointer;
+}
+
+.close_icon{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+  display: none;
+}
+
+.active .close_icon{
+  display: block;
+}
+
+@media (min-width:1025px) {
+  #mobile_nav{
+    display: none;
+  }
+}
+
+@media (max-width:1024px) {
+  .menu_icon{
+    display: block;
+  }
+  #original_nav{
+    display: none;
+  }
+}
+
+@media (max-width:500px) {
+  .subcribe{
+    width: 100%;
+  }
+  .subscribe form{
+    width: 100%;
+  }
+
+  footer .subscribe p{
+    width: 100%;
+  }
 }
