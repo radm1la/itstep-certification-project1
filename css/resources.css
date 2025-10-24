@@ -19,6 +19,7 @@ main .container {
   flex-wrap: wrap;
   padding: 95px;
   gap: 30px;
+  justify-content: space-around;
 }
 
 .container .card {
@@ -90,4 +91,65 @@ span#heart{
 
 .field3 span.liked{
     color: var(--heartColor);
+}
+
+@media (max-width:1441px) {
+    .container .card{
+      max-width: 320px;
+    }
+    main .container{
+      padding: 60px;
+    }
+}
+
+@media (max-width:1320px) {
+   .container .card{
+    max-width: 400px;
+   }
+}
+
+@media (max-width:1150px) {
+   .container .card{
+    max-width: 320px;
+   }
+    main .container{
+      padding-inline: 60px;
+    }
+}
+
+@media (max-width:990px) {
+  .container .card{
+    max-width: 100%;
+  }
+  main h2.title{
+    font-size: 36px;
+  }
+   main .container{
+      padding: 40px;
+    }
+    main{
+      padding: 50px;
+    }
+}
+
+@media (max-width:785px) {
+    main h2.title{
+    font-size: 30px;
+  }
+     main .container{
+      padding: 20px;
+    }
+}
+
+@media (max-width:505px) {
+       main .container{
+      padding: 0;
+      background-color: var(--black);
+    }
+        main{
+      padding: 20px;
+    }
+        main h2.title{
+    font-size: 22px;
+  }
 }

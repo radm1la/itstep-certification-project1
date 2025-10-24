@@ -293,7 +293,7 @@ footer .subscribe p{
   }
 }
 
-@media (max-width:1024px) {
+@media (max-width:990px) {
   .menu_icon{
     display: block;
   }

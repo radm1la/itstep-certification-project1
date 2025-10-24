@@ -81,3 +81,52 @@
   font-family: var(--M);
   font-weight: 400;
 }
+
+@media (max-width:1050px) {
+  .ser_sec1{
+    padding: 50px;
+  }
+}
+
+@media (max-width:825px) {
+  .cards{
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)) !important;
+  }
+  .card{
+    width: 100% !important;
+  }
+  .cards p{
+    max-width: 100% !important;
+  }
+  .ser_sec2 h2{
+    font-size: 36px !important;
+  }
+  .ser_sec1{
+    padding: 20px;
+  }
+  .ser_sec1 h2{
+    font-size: 36px !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (max-width:600px) {
+  .ser_sec1{
+    padding: 0;
+  }
+  .ser_sec1 h2{
+    padding: 30px;
+    font-size: 22px !important;
+  }
+    .ser_sec2 h2{
+    font-size: 22px !important ;
+  }
+
+  .ser_sec2{
+    padding:20px ;
+  }
+  .card p{
+    font-size: 14px;
+  }
+}

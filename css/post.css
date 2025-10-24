@@ -115,7 +115,7 @@ span.liked {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .cards .card {
@@ -172,4 +172,85 @@ span.liked {
 
 .comments_area input::placeholder{
   color: #fff;
+}
+
+@media (max-width:1440px) {
+  .content .area {
+  padding-inline: 250px;
+}
+.recent_posts {
+  padding-inline: 110px;
+}
+.comments_area{
+  padding-inline: 250px;
+}
+}
+
+@media (max-width:1220px) {
+    .content .area {
+  padding-inline: 150px;
+}
+.recent_posts {
+  padding-inline: 50px;
+}
+.comments_area{
+  padding-inline: 150px;
+}
+}
+
+@media (max-width:1166px) {
+  .cards .card {
+  width: 250px;
+}
+}
+
+@media (max-width:1050px) {
+    .cards .card {
+  width: 230px;
+}
+}
+
+@media (max-width:990px) {
+      .cards .card {
+  width: 100%;
+}
+    .content .area {
+  padding-inline: 50px;
+}
+.recent_posts {
+  padding-inline: 100px;
+}
+.comments_area{
+  padding-inline: 50px;
+}
+.content{
+  padding-top: 50px !important;
+}
+main{
+  padding: 50px;
+}
+}
+
+@media (max-width:555px) {
+      .content .area {
+  padding-inline: 10px;
+}
+.recent_posts {
+  padding-inline: 20px;
+}
+.comments_area{
+  padding-inline: 10px;
+}
+.content{
+  padding-top: 10px !important;
+}
+main{
+  padding: 10px;
+}
+.area h2{
+  font-size: 26px;
+}
+.area .quote{
+  font-size: 22px !important;
+}
 }

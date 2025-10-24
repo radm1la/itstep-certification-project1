@@ -126,6 +126,7 @@ main form button:hover{
 @media (max-width:768px) {
     main{
     padding-inline: 50px;
+    padding-top: 50px;
   }
 }
 
@@ -138,5 +139,9 @@ main form button:hover{
 @media (max-width:480px) {
   main{
     padding-inline: 20px;
+  }
+
+  main h2{
+    font-size: 32px;
   }
 }

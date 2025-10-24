@@ -59,7 +59,7 @@
           <p style="font-size: 14px">3D Printing House</p>
         </div>
       </a>
-      <nav>
+      <nav id="original_nav">
         <ul>
           <li><a href="services.html">Services</a></li>
           <li><a href="about.html">About</a></li>
@@ -68,8 +68,25 @@
           <li><a href="contact.html">Contact</a></li>
           <li><a href="index.html#faq">FAQ</a></li>
         </ul>
-        <button onclick="window.location.href='contact.html'">Get a Quote</button>
+        <button onclick="window.location.href='#'">Get a Quote</button>
       </nav>
+      <nav id="mobile_nav">
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="materials.html">Materials</a></li>
+          <li><a href="#" class="active_link">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+        </ul>
+        <div class="close_icon">
+          <img src="/media/close.svg" width="40" height="40" alt="" />
+        </div>
+        <button onclick="window.location.href='#'">Get a Quote</button>
+      </nav>
+      <div class="menu_icon">
+        <img src="/media/menu.svg" alt="" width="30" height="30" />
+      </div>
     </header>
     <main>
       <h2 class="title">The Ultimate 3D Guide by Our Experts</h2>
@@ -295,5 +312,6 @@
     </footer>
 
     <script src="/js/resources.js"></script>
+    <script src="/js/mobile_nav.js"></script>
   </body>
 </html>

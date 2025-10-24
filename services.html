@@ -13,8 +13,8 @@
   </head>
   <body>
 <div class="my_container">
-      <header>
-      <a href="#" class="logo_area">
+    <header>
+      <a href="index.html" class="logo_area">
         <svg
           preserveAspectRatio="xMidYMid meet"
           data-bbox="20.295 20.292 159.409 159.415"
@@ -46,7 +46,7 @@
           <p style="font-size: 14px">3D Printing House</p>
         </div>
       </a>
-      <nav>
+      <nav id="original_nav">
         <ul>
           <li><a href="#" class="active_link">Services</a></li>
           <li><a href="about.html">About</a></li>
@@ -55,8 +55,25 @@
           <li><a href="contact.html">Contact</a></li>
           <li><a href="index.html#faq">FAQ</a></li>
         </ul>
-        <button onclick="window.location.href='contact.html'">Get a Quote</button>
+        <button onclick="window.location.href='#'">Get a Quote</button>
       </nav>
+      <nav id="mobile_nav">
+        <ul>
+          <li><a href="#" class="active_link">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="materials.html">Materials</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+        </ul>
+        <div class="close_icon">
+          <img src="/media/close.svg" width="40" height="40" alt="" />
+        </div>
+        <button onclick="window.location.href='#'">Get a Quote</button>
+      </nav>
+      <div class="menu_icon">
+        <img src="/media/menu.svg" alt="" width="30" height="30" />
+      </div>
     </header>
     <main>
       <section class="ser_sec1">
@@ -162,7 +179,6 @@
         © 2035 by Printa. Powered and secured by <a href="">Wix</a>
       </div>
     </footer>
+    <script src="/js/mobile_nav.js"></script>
   </body>
 </html>
-
-<!-- chat buttonis damateba -->
