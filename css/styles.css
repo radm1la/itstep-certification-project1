@@ -1,5 +1,6 @@
+/* section 1 */
 .sec1 {
-  height: 1100px;
+  min-height: 1100px;
   width: 100%;
   background-image: url("/media/sec1_bg_img.png");
   background-size: cover;
@@ -39,6 +40,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .lower_sec .col {
@@ -65,9 +67,10 @@
   margin-left: -15px;
 }
 
+/* section 2 */
 .sec2 {
   width: 100%;
-  height: 995px;
+  max-height: 995px;
 }
 
 .video-bg {
@@ -114,7 +117,7 @@
   z-index: 0;
 }
 
-
+/* section 3 */
 .sec3{
     width: 100%;
     min-height: 995px;
@@ -185,6 +188,7 @@
   line-height: 30px;
 }
 
+/* section 4 */
 .sec4{
   height: 480px;
   padding:100px;
@@ -203,6 +207,7 @@
 
 .sec4 .materials{
   width: 100%;
+  height: 100%;
   display: flex;
   gap: 30px;
   margin-top: 50px;
@@ -237,9 +242,10 @@
   border-radius: 10px;
 }
 
+/* section 5 */
 .sec5{
   position: relative;
-  height: 505px;
+  min-height: 505px;
   background-color: var(--dgray);
   display: flex;
   align-items: center;
@@ -251,10 +257,11 @@
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-inline: 150px;
   padding-bottom: 100px;
   padding-top: 150px;
+  gap:40px;
 }
 
 .testimonials .card{
@@ -332,6 +339,7 @@
   color: var(--lgray);
 }
 
+/* section 6 */
 .sec6{
   min-height: 650px;
   width: 100%;
@@ -346,11 +354,13 @@
 }
 
 .sec6 .gallery{
+  margin-top: 50px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   padding-inline: 100px;
+  justify-content:space-evenly;
   gap:30px;
 }
 
@@ -401,6 +411,7 @@ figure figcaption{
 
 .sec7 .clients_list{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   border: 0.1px solid #444343;
@@ -437,7 +448,7 @@ figure figcaption{
   padding-top: 120px;
 }
 
-.sec8 .sec8_content{
+.sec8_content{
   width: 860px;
   height: 100%;
   display: flex;
@@ -558,10 +569,168 @@ input::placeholder{
 }
 
 
+@media (max-width:1630px) {
+  .lower_sec .col{
+    padding-right: 100px;
+  }
+  .gallery figure .img{
+    width: 320px;
+  }
+}
+
+@media (max-width:1510px) {
+    .lower_sec .col{
+    padding-right: 50px;
+  }
+}
+
+@media (max-width:1318px) {
+    .lower_sec .col{
+    padding-right: 200px;
+  }
+  .sec3 .benefits{
+    width: 80%;
+  }
+}
+
+@media (max-width:1215px) {
+.sec5 .testimonials{
+  padding-inline: 90px;
+}
+}
+
+@media (max-width:1060px) {
+  .sec1 .lower_sec .col{
+    padding-right: 60px;
+  }
+  .sec4 .materials{
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+  .sec4{
+    height: auto !important;
+  }
+}
 
 
+@media (max-width:970px) {
+  .sec8_content{
+    width: 100%;
+  }
+  .content{
+    width: 100%;
+  }
 
+  .sec1 h1{
+    font-size: 60px !important;
+  }
+}
 
+@media (max-width:865px) {
+  .gallery{
+    padding-inline: 0 !important;
+  }
+  .sec2 h1{
+    font-size: 32px !important;
+  }
+  .sec1 .mid_sec{
+    width: 100%;
+  }
+}
 
+@media (max-width:780px){
+  .sec1 .lower_sec .col{
+    width: 100% !important;
+  }
+  .sec1 .lower_sec{
+    margin-top: 50px !important;
+  }
+  .testimonials{
+    padding-inline: 20px !important;
+  }
+}
 
+@media (max-width:705px) {
+  .sec1{
+    padding: 0;
+  }
+  .sec1 .lower_sec{
+    width: 100% ;
+  }
+  .sec1 .mid_sec{
+    padding: 50px;
+  }
+
+  .sec2 .content{
+    padding:70px;
+  }
+  .benefits{
+    width: 100% !important;
+  }
+  .sec3{
+    padding-inline: 50px;
+  }
+  .material{
+    height: 300px !important;
+  }
+}
+
+@media (max-width:670px) {
+  .gallery .img{
+    width: 100% !important;
+  }
+  .testimonials .testimonial{
+    width: 100% !important;
+  }
+  .card p.testimonial::before{
+    width: 120px ;
+    left: -65px;
+  top:30px;
+  }
+  .sec4{
+    padding-inline: 20px !important;
+  }
+  .sec8 p{
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width:560px){
+  .sec1 h1{
+    font-size: 32px !important;
+  }
+  .sec1 p{
+    font-size: 18px !important;
+  }
+  .sec2 h1{
+    font-size: 24px !important;
+  }
+  .sec3 h1{
+    font-size: 22px !important;
+  }
+  .sec6 h2{
+    padding: 30px;
+    font-size: 28px !important;
+  }
+  .sec2 .content ,.sec3, .sec4 ,.sec5,.sec8{
+    padding-inline: 20px !important;
+  }
+  .sec8{
+    padding-top: 50px;
+  }
+  .sec7{
+    padding: 0;
+    padding-top: 100px;
+  }
+  .box{
+    width: 300px !important;
+    left: 20px !important;
+    padding: 10px 0 10px 15px !important;
+    font-size: 16px !important;
+  }
+  button{
+    padding: 10px 15px !important;
+    font-size: 14px !important;
+  }
+}
 
