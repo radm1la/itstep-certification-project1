@@ -125,6 +125,8 @@
 
   .ser_sec2{
     padding:20px ;
+    min-height: auto;
+    padding-block: 50px;
   }
   .card p{
     font-size: 14px;

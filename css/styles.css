@@ -735,7 +735,10 @@ input::placeholder{
   }
   button{
     padding: 10px 15px !important;
-    font-size: 14px !important;
+    font-size: 16px !important;
+  }
+  .sec1 .mid_sec .btns{
+    flex-wrap: wrap;
   }
 }
 
