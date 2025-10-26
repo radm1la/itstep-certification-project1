@@ -121,6 +121,7 @@ h3,
   transform: rotate(-90deg);
 }
 
+/* responsiveness */
 @media (max-width: 1445px) {
   .sec1 .container {
     padding: 50px;

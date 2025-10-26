@@ -123,6 +123,7 @@ main form button:hover{
     color: var(--white);
 }
 
+/* responsiveness */
 @media (max-width:768px) {
     main{
     padding-inline: 50px;

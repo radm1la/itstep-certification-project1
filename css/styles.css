@@ -402,6 +402,7 @@ figure figcaption{
   font-weight: bold;
 }
 
+/* section 7 */
 .sec7{
   min-height: 335px;
   width: 100%;
@@ -436,7 +437,7 @@ figure figcaption{
   object-fit: contain;
 }
 
-
+/* section 8 */
 .sec8{
   min-height: 765px;
   width: 100%;
@@ -568,6 +569,7 @@ input::placeholder{
 }
 
 
+/* responsiveness */
 @media (max-width:1630px) {
   .lower_sec .col{
     padding-right: 100px;

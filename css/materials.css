@@ -65,6 +65,7 @@ main .materials_container {
   border-bottom: none;
 }
 
+/* responsiveness */
 @media (max-width: 1653px) {
   .materials_container .material {
     padding: 50px;

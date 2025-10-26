@@ -1,3 +1,4 @@
+/* section 1 */
 .ser_sec1 {
   padding: 100px;
   width: 100%;
@@ -46,6 +47,7 @@
   line-height: 1.6;
 }
 
+/* section 2 */
 .ser_sec2 {
   width: 100%;
   background-image: url("/media/services_sec2_bg.png");
@@ -82,6 +84,7 @@
   font-weight: 400;
 }
 
+/* responsiveness */
 @media (max-width:1050px) {
   .ser_sec1{
     padding: 50px;
