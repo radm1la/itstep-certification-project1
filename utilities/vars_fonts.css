@@ -1,5 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap"); /*jockey one*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); /*Montserrat*/
+/* @import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap"); jockey one */
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); Montserrat */
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Jockey One";
+  src: url("JockeyOne-Regular.ttf");
+}
 
 @font-face {
   font-family: "Proxima Nova";
